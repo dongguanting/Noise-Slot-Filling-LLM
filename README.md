@@ -1,10 +1,12 @@
 # A Unified Robustness Evaluation Framework for Noisy Slot Filling Task
-随着大型语言模型（LLM）能力的不断增强，这些高性能模型在广泛的自然语言处理（NLP）任务中取得了最先进的成果。然而，当应用于真实世界的噪声数据时，模型在常用基准数据集上的性能往往无法准确反映其可靠性和稳健性。为了应对这些挑战，我们提出了一个基于槽填充任务的统一鲁棒性评估框架，以系统地评估LLM在不同输入扰动场景中的对话理解能力。
 
-<div align="center"><img src="./nlpcc-main.png" height="23%" width="100%" /></div>
+
+
 
 ## Overview
 This is the repository for Noise-LLM . Noise-LLM assess how well various robustness methods of LLMs perform in real-world noisy scenarios
+
+<div align="center"><img src="./nlpcc-main.png" height="23%" width="100%" /></div>
 
 With the increasing capabilities of large language models (LLMs), these high-performance models have achieved state-of-the-art results on a wide range of natural language processing (NLP) tasks. However, the models' performance on commonly-used benchmark datasets often fails to accurately reflect their reliability and robustness when applied to real-world noisy data. 
 
