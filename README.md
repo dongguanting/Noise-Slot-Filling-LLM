@@ -27,6 +27,7 @@ Furthermore, we utilize a multi-level data augmentation method (character, word,
 | ChatGPT+Entity level                                     | 74.07(+2.6) | 62.18(+21.5) | 55.39(+4.6)  |75.59(+18.9) | 70.96(+5.4)    | 71.75(+16.1) | 71.55(+14.3) |
 
 
+## Mixed Perturbation Senario
 
 | Model                                                    |  Clean     | Typos        | Speech       | AppendIRR  | Spe+Ty         |Spe+App     |Ent+App      |Spe+App+Typ|Overall|
 | -------------------------------------------------------- | :------:   | :----:       | :------:     | :------:    | :------:       | :------:    | :------:    |:------:  | :------:  |
