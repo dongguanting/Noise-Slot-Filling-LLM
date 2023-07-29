@@ -14,6 +14,8 @@ We propose a unified robustness evaluation framework based on the slot-filling t
 
 Furthermore, we utilize a multi-level data augmentation method (character, word, and sentence levels) to construct a candidate data pool, and carefully design two ways of automatic task demonstration construction strategies (instance-level and entity-level) with various prompt templates. Our aim is to assess how well various robustness methods of LLMs perform in real-world noisy scenarios. The experiments have demonstrated that the current open-source LLMs generally achieve limited perturbation robustness performance. 
 
+## Single Perturbation Senario
+
 | Model                                                    |  Clean     | Typos        | Speech       | Paraphrase  | Simplification |Verbose      |Overall      |
 | -------------------------------------------------------- | :------:   | :----:       | :------:     | :------:    | :------:       | :------:    | :------:    | 
 | NAT                                                      |  96.01     | 67.47        | 85.23        | 87.73       | 87.32          | 85.41        | 87.21        |
@@ -24,4 +26,12 @@ Furthermore, we utilize a multi-level data augmentation method (character, word,
 | ChatGPT+Instance level                                   | 68.21(-3.2) | 65.04(+24.3) | 70.56(+10.5) |58.82(+2.2)  | 73.02(+7.4)    |  61.77(+6.2) | 68.34(+11.1) |
 | ChatGPT+Entity level                                     | 74.07(+2.6) | 62.18(+21.5) | 55.39(+4.6)  |75.59(+18.9) | 70.96(+5.4)    | 71.75(+16.1) | 71.55(+14.3) |
 
+
+
+| Model                                                    |  Clean     | Typos        | Speech       | AppendIRR  | Spe+Ty         |Spe+App     |Ent+App      |Spe+App+Typ|Overall|
+| -------------------------------------------------------- | :------:   | :----:       | :------:     | :------:    | :------:       | :------:    | :------:    |:------:  | :------:  |
+| Text-davinci-003                                         |  31.24    | 27.18        | 23.41        | 27.48       | 19.32         | 19.78       | 20.73        | 18.84| 24.64 |
+| ChatGPT                                                  |  59.65     | 42.11        | 34.83       | 45.61       | 27.58          | 31.03       | 26.38        |26.11  | 38.18 | 
+| ChatGPT+Instance level                                   | 67.18     | 48.94         | 42.25       |52.61        | 34.26          |  38.79      | 38.64         | 30.67  |46.58  |
+| ChatGPT+Entity level                                     | 65.71     | 47.36        | 40.37        |53.42       | 36.55          | 37.35       | 34.21      | 29.06 | 44.27 |
 
