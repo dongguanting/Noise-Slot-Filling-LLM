@@ -1,0 +1,30 @@
+O O O O O O O O O O O O O B-stars O O
+O O O O O O O O O O O B-stay O
+O O O O O O O O O B-name I-name O
+O O B-people O O O O O B-stay O O B-day
+O O O O O
+O O O O O B-type O O B-area O O O O O
+O O O B-people O O O B-stay O
+O O O O O B-stay O
+B-stars O O O O
+O O O B-area O O O O O O O
+O O O O O B-name I-name I-name I-name
+O O O O O B-stars O B-type O O O
+O O O O B-stay O O O O
+O O O O O O O O B-price I-price
+O O O O O B-type O O O
+O O O O O O B-day
+O O O O O O O O O O O O O O O O
+O O O O O O B-name I-name I-name
+O O O O O O O O O O O O O B-day O B-stay O
+O O O O O O O O B-name I-name I-name
+O O O O O O O O O O O O O O
+O O O B-type O O O O
+O O O O B-stars I-stars O O O O B-area O
+O O O B-price
+O O O O B-stars O
+O O O O O B-price O O
+O B-price O O
+O O O O O O B-area O O
+O O O O O O B-price O
+O O O O O O O B-stay O O B-day
