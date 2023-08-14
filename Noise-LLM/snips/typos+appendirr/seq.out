@@ -1,0 +1,30 @@
+O O O O O O O O O B-artist I-artist O O B-playlist I-playlist O 
+O O O O O O O B-party_size_number O O O O O O B-spatial_relation O B-poi O O B-restaurant_type O O O O O O O O O 
+O O O O O B-artist I-artist O B-playlist_owner B-playlist I-playlist I-playlist I-playlist I-playlist I-playlist I-playlist I-playlist O O O O O O O 
+O O O O B-condition_description O B-state O B-timeRange I-timeRange I-timeRange 
+O O O O O O B-artist I-artist B-music_item O O O B-sort 
+O O O O O O O O O O O B-movie_type I-movie_type O O B-spatial_relation I-spatial_relation O O O O O 
+O O O O O O O O O B-sort I-sort B-restaurant_type O B-country O O O O O O 
+O O O O O O B-current_location O B-timeRange 
+O O O O B-movie_name I-movie_name O B-timeRange O O B-object_location_type I-object_location_type 
+O O O B-timeRange I-timeRange I-timeRange O O O O O O O B-state B-restaurant_type O O O O O O O O O 
+O O O O O B-movie_type O O O B-location_name I-location_name 
+O O O O O O O B-object_type O B-object_name I-object_name I-object_name 
+O O O B-movie_name I-movie_name I-movie_name 
+O O O O O O O B-restaurant_type O O B-served_dish O B-country I-country I-country O B-party_size_number O O O O O O O 
+O O O O O O O O B-object_type I-object_type B-object_name I-object_name I-object_name O O O O O O 
+O O O O O B-condition_description O O O O B-current_location I-current_location O B-timeRange O O O O O O O O O 
+O O O O B-object_name I-object_name I-object_name B-object_type 
+O O O O O O O B-state I-state 
+O O O B-object_location_type I-object_location_type O O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name I-movie_name O O O O O O O O O O 
+O O B-restaurant_type O B-country B-timeRange I-timeRange O O B-party_size_number O 
+O O O O O O O B-object_select B-object_type B-rating_value O B-best_rating B-rating_unit 
+O O O O O B-music_item B-playlist I-playlist I-playlist I-playlist I-playlist O B-playlist_owner O O O O O O O O O O 
+O O O O O O O B-music_item O B-artist I-artist O B-playlist I-playlist O O O O O O 
+O O O O O O O O B-object_type I-object_type 
+O O O O O O O B-condition_description O B-city 
+O O O O O O O O O O O O O O O O O O B-timeRange I-timeRange O B-state O O O O O O O O 
+O O B-timeRange I-timeRange I-timeRange O B-movie_name I-movie_name I-movie_name 
+O O O O O O B-party_size_number O O B-sort B-cuisine B-restaurant_type B-spatial_relation I-spatial_relation O B-city O O O O O O O 
+O O O O O O B-artist I-artist O O O B-year 
+O O O O O O B-playlist B-entity_name 
