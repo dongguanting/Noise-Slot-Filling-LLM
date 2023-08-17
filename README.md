@@ -16,10 +16,18 @@ We propose a unified robustness evaluation framework based on the slot-filling t
 Furthermore, we utilize a multi-level data augmentation method (character, word, and sentence levels) to construct a candidate data pool, and carefully design two ways of automatic task demonstration construction strategies (instance-level and entity-level) with various prompt templates. Our aim is to assess how well various robustness methods of LLMs perform in real-world noisy scenarios. The experiments have demonstrated that the current open-source LLMs generally achieve limited perturbation robustness performance. 
 
 ### Evaluation by using ChatGPT API
-We have provided the API code for inquiring ChatGPT. Please fill in your own API key to complete the testing locally. The dataset reference is xxx. 
+We have provided the API code for inquiring ChatGPT. Please fill in your own API key to complete the testing locally. The dataset link is [./single-noise-raddle](./single-noise-raddle) and [./snips](./snips).
+
+**Set up environment：**
 
 ```bash
 pip install openai
+```
+
+**Evaluation:**
+
+```bash
+cd ./Noise-LLM
 python chatgpt.py
 ```
 In the future, we will improve the code for data loading to implement the automation evaluation process of Noise-LLM.
