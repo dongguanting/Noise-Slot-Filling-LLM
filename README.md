@@ -1,15 +1,14 @@
-# A Unified Robustness Evaluation Framework for Noisy Slot Filling Task
+# Revisit Input Perturbation Problems for LLMs: A Unified Robustness Evaluation Framework for Noisy Slot Filling Task
 
 
 ## Overview
 
 This is the repository for our work **Noise-LLM**, which is recieved by **NLPCC 2023 Oral Presentation**.
 
-Noise-LLM assess how well various robustness methods of LLMs perform in real-world noisy scenarios
-
 <div align="center"><img src="./nlpcc-main.png" height="23%" width="100%" /></div>
 
 ## Brief introduction
+Noise-LLM assess how well various robustness methods of LLMs perform in real-world noisy scenarios.
 
 With the increasing capabilities of large language models (LLMs), these high-performance models have achieved state-of-the-art results on a wide range of natural language processing (NLP) tasks. However, the models' performance on commonly-used benchmark datasets often fails to accurately reflect their reliability and robustness when applied to real-world noisy data. 
 
