@@ -1,18 +1,30 @@
 # A Unified Robustness Evaluation Framework for Noisy Slot Filling Task
 
 
-
-
 ## Overview
+
 This is the repository for Noise-LLM . Noise-LLM assess how well various robustness methods of LLMs perform in real-world noisy scenarios
 
 <div align="center"><img src="./nlpcc-main.png" height="23%" width="100%" /></div>
+
+## Brief introduction
 
 With the increasing capabilities of large language models (LLMs), these high-performance models have achieved state-of-the-art results on a wide range of natural language processing (NLP) tasks. However, the models' performance on commonly-used benchmark datasets often fails to accurately reflect their reliability and robustness when applied to real-world noisy data. 
 
 We propose a unified robustness evaluation framework based on the slot-filling task to systematically evaluate the dialogue understanding capability of LLMs in diverse input perturbation scenarios. Specifically, we construct a input perturbation evaluation dataset, Noise-LLM, which contains five types of single perturbation and four types of mixed perturbation data. 
 
 Furthermore, we utilize a multi-level data augmentation method (character, word, and sentence levels) to construct a candidate data pool, and carefully design two ways of automatic task demonstration construction strategies (instance-level and entity-level) with various prompt templates. Our aim is to assess how well various robustness methods of LLMs perform in real-world noisy scenarios. The experiments have demonstrated that the current open-source LLMs generally achieve limited perturbation robustness performance. 
+
+### Evaluation by using ChatGPT API
+We have provided the API code for inquiring ChatGPT. Please fill in your own API key to complete the testing locally. The dataset reference is xxx. 
+
+```bash
+pip install openai
+python chatgpt.py
+```
+In the future, we will improve the code for data loading to implement the automation evaluation process of Noise-LLM.
+
+
 
 ## Single Perturbation Senario
 
