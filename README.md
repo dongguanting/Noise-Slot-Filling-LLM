@@ -1,5 +1,21 @@
-# Revisit Input Perturbation Problems for LLMs: A Unified Robustness Evaluation Framework for Noisy Slot Filling Task
 
+## 🎥 Overview
+This repository contains the open-sourced official implementation of the paper:
+
+[Revisit Input Perturbation Problems for LLMs: A Unified Robustness Evaluation Framework for Noisy Slot Filling Task](https://arxiv.org/abs/2310.06504) (NLPCC 2023 Oral Presentation).
+
+If you find this repo helpful, please cite the following paper:
+
+```bibtex
+@misc{dong2023revisit,
+      title={Revisit Input Perturbation Problems for LLMs: A Unified Robustness Evaluation Framework for Noisy Slot Filling Task}, 
+      author={Guanting Dong and Jinxu Zhao and Tingfeng Hui and Daichi Guo and Wenlong Wan and Boqi Feng and Yueyan Qiu and Zhuoma Gongque and Keqing He and Zechen Wang and Weiran Xu},
+      year={2023},
+      eprint={2310.06504},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 ## Overview
 
