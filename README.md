@@ -3,7 +3,7 @@
 
 ## Overview
 
-This is the repository for our work **Noise-LLM**, which is recieved by **NLPCC 2023 Oral Presentation**.
+This is the repository for our work **Noise-LLM**, which is received by **NLPCC 2023 Oral Presentation**.
 
 <div align="center"><img src="./nlpcc-main.png" height="23%" width="100%" /></div>
 
