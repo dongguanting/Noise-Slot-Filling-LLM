@@ -8,13 +8,13 @@ This repository contains the open-sourced official implementation of the paper:
 If you find this repo helpful, please cite the following paper:
 
 ```bibtex
-@misc{dong2023revisit,
-      title={Revisit Input Perturbation Problems for LLMs: A Unified Robustness Evaluation Framework for Noisy Slot Filling Task}, 
-      author={Guanting Dong and Jinxu Zhao and Tingfeng Hui and Daichi Guo and Wenlong Wan and Boqi Feng and Yueyan Qiu and Zhuoma Gongque and Keqing He and Zechen Wang and Weiran Xu},
-      year={2023},
-      eprint={2310.06504},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{dong2023revisit,
+  title={Revisit input perturbation problems for llms: A unified robustness evaluation framework for noisy slot filling task},
+  author={Dong, Guanting and Zhao, Jinxu and Hui, Tingfeng and Guo, Daichi and Wang, Wenlong and Feng, Boqi and Qiu, Yueyan and Gongque, Zhuoma and He, Keqing and Wang, Zechen and others},
+  booktitle={CCF International Conference on Natural Language Processing and Chinese Computing},
+  pages={682--694},
+  year={2023},
+  organization={Springer}
 }
 ```
 
